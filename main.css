@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+margin: 0;
+    box-sizing: border-box;
+    font-family: Console, sans-serif;
+}
+
+body {
+   
+    font-size: 1rem;
+    line-height: 1.5em;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+#navbar{
+    min-height: 284px;
+    width: 100%;
+}
+#navbar ul {
+    list-style: none;
+    background-color: rgb(48, 49, 52);
+    height: 200px;
+    overflow-y:auto ;
+    
+}
+
+#navbar ul li {
+    font-size: 1.25em;
+    
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+header {
+    font-size: 3.0em;
+    padding: 30px ;
+    text-align: center;
+}
+.nav-link{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+}
+#main-doc{
+    padding: 0px 20px;
+}
+
+.main-section  header{
+    font-size: 2em;
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+.main-section article p{
+    padding: 0px 0px 20px 20px;
+    text-align: justify;
+}
+.main-section article ul{
+    padding: 0px 0px 20px 80px;
+}
+.main-section article ul li{
+    padding: 0px 0px 20px 0px;
+}
+
+.main-section article code{
+    display: block;
+    background-color: rgb(48, 49, 52);
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    word-break: normal;
+    word-wrap: normal;
+    white-space: pre-line;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.main-section  p{
+    padding: 0px 0px 20px 20px;
+    text-align: justify;
+}
+.main-section article{
+    padding: 0px 0px 0px 20px;
+}
+
+@media(min-width:815px) {
+    #navbar{
+        position: fixed;
+        height: 100vh;
+        width: 350px;
+        border-right: 2px solid rgb(85, 74, 150);
+    }
+
+    #navbar header{
+        display: block;
+        font-size: 2em;
+    }
+    #navbar ul {
+        
+        background-color: rgb(27, 26, 26);
+        height: 100%;
+        overflow-y:auto ;
+        
+    }
+    #navbar ul li {
+        
+        
+        border-bottom: 2px solid rgb(85, 74, 150);
+        width: 100%;
+    }
+
+
+    #main-doc{
+        position: absolute;
+        margin-left: 360px;
+    }
+    .main-section article li{
+        color: rgb(85, 74, 150);
+    }
+    .main-section article li span{
+        color: #fff;
+    }
+    .main-section article ul p{
+        color: #fff;
+    }
+    .main-section article ul li spam{
+        color: #fff;
+    }
+
+}
